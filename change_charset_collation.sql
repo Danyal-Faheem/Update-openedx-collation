@@ -1,5 +1,5 @@
 use openedx;
-ALTER DATABASE openedx CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+ALTER DATABASE openedx CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 SET FOREIGN_KEY_CHECKS=0;
 ALTER TABLE `agreements_integritysignature` CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;                                    
 ALTER TABLE `agreements_ltipiisignature` CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;                                       
